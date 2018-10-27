@@ -1,0 +1,37 @@
+graph STEP {
+    1 [shape=box, style=filled, fillcolor = red, bb = 10]
+    2 [shape=box, style=filled, fillcolor = red, bb = 10]
+    3 [shape=box, style=filled, fillcolor = red, bb = 10]
+    4 [shape=box, style=filled, fillcolor = red, bb = 10]
+    5 [shape=box, style=filled, fillcolor = red, bb = 10]
+    6 [shape=box, style=filled, fillcolor = red, bb = 10]
+    7 [shape=box, style=filled, fillcolor = red, bb = 10]
+    8 [shape=box, style=filled, fillcolor = red, bb = 10]
+    9 [shape=box, style=filled, fillcolor = red, bb = 10]
+    10 [shape=box, style=filled, fillcolor = red, bb = 10]
+    11 [shape=box, style=filled, fillcolor = red, bb = 10]
+    1 -- 2;
+    3 -- 1;
+    3 -- 2;
+    4 -- 3;
+    4 -- 1;
+    5 -- 4;
+    5 -- 1;
+    5 -- 2;
+    6 -- 5;
+    6 -- 4;
+    6 -- 3;
+    6 -- 2;
+    7 -- 8;
+    7 -- 10;
+    7 -- 11;
+    7 -- 3;
+    8 -- 11;
+    8 -- 3;
+    9 -- 8;
+    9 -- 10;
+    9 -- 11;
+    9 -- 3;
+    10 -- 11;
+    10 -- 3;
+}
